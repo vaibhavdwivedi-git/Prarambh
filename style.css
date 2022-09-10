@@ -1,0 +1,79 @@
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Root Variables */
+:root {
+    --green-text: linear-gradient(265.92deg, #7EDC6F 1.73%, #61C09B 76.57%);
+}
+
+
+body{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    padding:1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:48px;
+}
+
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vision{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vision-gallery{
+    width:100%;
+    display: flex;
+}
+
+.vision-tab{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.how-it-works{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hiw-gallery{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
