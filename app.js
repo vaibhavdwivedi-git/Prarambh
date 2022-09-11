@@ -48,6 +48,6 @@ app.get('/verify/:id',(req,res)=>{
     res.render('info',{id : id, mfd : mfd, consname : consname, date: date, price: price});
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 
 // https://api-goerli.etherscan.io/api?module=proxy&action=eth_getTransactionByHash&txhash=0x4b593be6521a6c3e20634926f72ba6770d3f997fbd6e5f52e4f17249c59b2d18&apikey=7QFWUIUF1EN4GYXZEBEPI7FI8R4R7MUBQC
